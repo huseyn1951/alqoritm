@@ -1,0 +1,58 @@
+   a) Oyunun başlaması üçün minimum tələbləri yoxlayan alqoritm.
+
+   1)komandalar ve heyyetler(her komandada 11 neferin olub olmamagini yoxlamag,ve ehtiyat oyuncularin olub olmamagi)
+   2)oyuncularin geyiminin olub olmamagi yoxlanmasi(forma,sort,butsi,corab ve s.)
+   3)qapicilarin geyimlerinin yoxlanmasi(forma sort butsi elcek corab ve s.)
+   4)Top.Topun standartlara uygun olub olmamasinin yoxlanilmasi
+   5)Meydanca.Meydancanin olcusu standartlara uygun olub olmamasi yoxlanilmasi,ortuyun suni ve ya tebii ot olmasi yoxlanilmasi
+   6)Hakim.Hakimler brigadasinin teyinati(ehtiyyat hakimleri ile birlikde)
+   7)Hekimler.Stadionda her iki komandanin hekimleri ve elave ayri ambulans masininin olmasi
+   8)Ot ortuyunun oyuna hazir olmasi.(xetlerin cekilmesi,otun sulanmasi)
+   9)Oyunun start fiti.
+
+
+
+   b) Qol olmaq alqoritmi. Bütün case-lər nəzərə alınsın.
+
+    1)Topun harda oldugununa nezaret
+    2)Topun qapi xettinin kecmesinin yoxlanmasi
+    3)Qolun hansisa bir oyuncunun vurdugunu ve ya avtoqol oldugunu yoxlanmasi
+    4)qolun qaydalar cercivesinde vurulub vurulmamasi
+    5)VAR sisteminin qolun yoxlamasi
+    6)eger qol qaydalar cercivesinde vurulubsa->qolun qeyde alinmasi
+    7)hesabin yenilenmesi
+
+
+   c) Oyunçu dəyişikliyi alqoritmi.
+      
+    1)Meydancada oyuncunlarin yorgulugunun teyin edilmesi
+    2)deyisiklikin ne vaxt olacagina qerar verilmesi
+    3)deyisiklik ucun oyuncu secimi
+    4)deyisilinen oyucunun hazir olmasi(forma butsi her sey hazir olmalidir)
+    5)deyisiklikin elan olunmasi(hakimlere deyisiklik haqda melumatin verilmesi )
+    6)deyisiklik
+    7)oyunun yeniden davam edilmesi
+
+
+
+   d) Oyunda qalibin müəyyən olunması alqoritmi.
+    1)vurulan qollar
+    2)qalibin teyin olmasi
+    3)qalibiyet.her hansisa komanda diger komandadan cox vurubsa cox vuran komanda qalib deyin olunur
+    4)hec-hece.eger her iki komandanin vurdugu qollar beraberdise oyun hec hece bitir.
+    5)elave vaxt.eger 90 deqiqe erzinde qalib mueyyen olunmayibssa komandalar elave 30 deqiqe oynayirlar.
+    6)penalti seriyasi.eger elave 30dk erzinde qalib mueyyen olunmasa komandalar penalti seriyasi oynayir.
+    7) ve sonda qalib muenlesir
+
+
+   e) Offside alqoritmi(VAR məntiqi ilə)
+    1)oyuncularin meydanda movqelerin izlenilmesi
+    2)pasin ayagdan cixan ani fiksasiya olunmasi
+    3)hucumda olan oyuncunun harda olmasi 
+    4)ofsayda qaydalari ile muqaise
+    5)VAR yoxlanisi.VAR bir daha epizodu inceleyib deqiq qerari verir
+    6)ofsaytin qeyde alinmasi,ve ya qolun qeyde alinmasi
+    7) oyun davam edir
+   
+    
+    
